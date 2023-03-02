@@ -19,7 +19,7 @@ This lab's objective was to explore further about White-box testing, and specifi
 
 # 2 Manual data-flow coverage calculations for X and Y methods
 
-## Range Combine() Method data-flow coverage
+## Range combine() Method data-flow coverage
 
 Data Flow Graph:
 ![](media/Range_Combine_DFG.png)
@@ -47,6 +47,39 @@ Def-pair set:
 
 Calculate DU-Pair Coverage: CU = 10, PU = 4
 
+
+## DataUtilities calculateColumnTotal() Method data-flow coverage
+
+Data Flow Graph:
+![](media/ColTotalDFG.png)
+
+Def-use sets per statement:
+
+Def-use sets per statement:
+
+Def-path set:
+- du(1, data) = {[1]}
+- du(3, total) = {[3,4,6], [3,5,9], [3,5,8,10]}
+- du(3, rowCount) = {[3],[3,5]}
+- du(3, r) = {[3], [3,4,7]}
+- du(4, n) = {[4], [4,6]}
+- du(5, r2) = {[5], [5,11]}
+- du(8, n) = {[8], [8,10]}
+
+Def-pair set:
+- du(3, 6, total) = {[3,4,6]}
+- du(3, 9, total) = {[3,5,9]}
+- du(3, 10, total) = {[3,5,8,10]}
+- du(3, 5, rowCount) = {[3,5]}
+- du(3, 7, r) = {[3,4,7]}
+- du(4, 6, n) = {[4,6]}
+- du(5, 11, r2) = {[5,11]}
+- du(8, 10, n) = {[8,10]}
+
+
+![](media/ColTotalTables.png)
+
+Calculate DU-Pair Coverage: CU = 7, PU = 14
 
 # 3 A detailed description of the testing strategy for the new unit test
 
