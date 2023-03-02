@@ -2,12 +2,13 @@
 
 **Lab. Report #3 – Code Coverage, Adequacy Criteria and Test Case Correlation**
 
-| Group \#:      |     |
+| Group \#:  15    |  UCID   |
 | -------------- | --- |
-| Student Names: |     |
-|                |     |
-|                |     |
-|                |     |
+| Student Names: |   |
+|   Manraj Singh | 30115660    |
+|   Noor Nawaz             |  30118937   |
+|   Sajan Hayer             | 30114632    |
+|   Ahmad Elshiltawi            |  30123883   |
 
 (Note that some labs require individual reports while others require one report
 for each group. Please see each lab document for details.)
