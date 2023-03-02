@@ -21,6 +21,9 @@ This lab's objective was to explore further about White-box testing, and specifi
 
 ## Range Combine() Method data-flow coverage
 
+Data Flow Graph:
+![](media/Range_Combine_DFG.png)
+
 
 
 # 3 A detailed description of the testing strategy for the new unit test
