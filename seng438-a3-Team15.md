@@ -55,8 +55,6 @@ Data Flow Graph:
 
 Def-use sets per statement:
 
-Def-use sets per statement:
-
 Def-path set:
 - du(1, data) = {[1]}
 - du(3, total) = {[3,4,6], [3,5,9], [3,5,8,10]}
