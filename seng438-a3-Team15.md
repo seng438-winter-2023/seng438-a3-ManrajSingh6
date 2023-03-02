@@ -15,11 +15,13 @@ for each group. Please see each lab document for details.)
 
 # 1 Introduction
 
-Text…
+This lab's objective was to explore further about White-box testing, and specifically how the JUnit framework along with EclEmma could be used to write unit tests. By using test coverage tools, test writers can understand how in-depth their tests are, by specifically looking at parameters such as Statement Coverage, Branch Coverage and Method/Condition Coverage. By understanding how writing different tests can affect the percentage values of these parameters, the tests we write are more thorough and can expose bugs that may not be covered by writing basic, trivial test cases. By having access to the code of the program, test writes can see how differnt functions return results, and write tests accordingly. White-box testing also allows us to determine more edge cases and edge values that may expose bugs or faulty execution of operations. Furthermore, manually calculating for data-flow coverage and calculating for statement, branch and method coverages allows us to determine how different statements of code affect the flow of data, and the values of those parameters.
 
 # 2 Manual data-flow coverage calculations for X and Y methods
 
-Text…
+## Range Combine() Method data-flow coverage
+
+
 
 # 3 A detailed description of the testing strategy for the new unit test
 
