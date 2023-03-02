@@ -24,6 +24,28 @@ This lab's objective was to explore further about White-box testing, and specifi
 Data Flow Graph:
 ![](media/Range_Combine_DFG.png)
 
+Def-use sets per statement:
+
+Def-path set:
+- du(1, range1) = {[1], [1,3,4], [1,3,5], [1,3,5,6]}
+- du(1, range2) = {[1,2], [1,3], [1,3,5], [1,3,5,6]}
+- du(5, l) = {[5,6,7]}
+- du(6, u) = {[6,7]}
+
+Def-pair set:
+- du(1, 4, range1) = {[1,3,4]}
+- du(1, 5, range1) = {[1,3,5]}
+- du(1, 6, range1) = {[1,3,5,6]}
+- du(1, 2, range2) = {[1,2]}
+- du(1, 3, range2) = {[1, 3]}
+- du(1, 5, range2) = {[1,3,5]}
+- du(1, 6, range2) = {[1,3,5, 6]}
+- du(5, 7, l) = {[5,6,7]}
+- du(6, 7, u) = {[6, 7]}
+
+![](media/Range_Combine_Tables.png)
+
+Calculate DU-Pair Coverage: CU = 10, PU = 4
 
 
 # 3 A detailed description of the testing strategy for the new unit test
