@@ -51,6 +51,7 @@ Calculate DU-Pair Coverage: CU = 10, PU = 4
 ## DataUtilities calculateColumnTotal() Method data-flow coverage
 
 Data Flow Graph:
+
 ![](media/datautilcoldiagram.png)
 
 Def-use sets per statement:
