@@ -52,38 +52,34 @@ Calculate DU-Pair Coverage: CU = 10, PU = 4
 
 Data Flow Graph:
 
-<img width="691" alt="CalculateColumnTotal" src="https://user-images.githubusercontent.com/97706855/222828967-27b22177-24d7-4324-a6fe-dfe207493144.png">
-
+<img width="693" alt="CalculateColumnTotal() one" src="https://user-images.githubusercontent.com/97706855/222839724-0596352e-0639-4aba-aaf0-2211130fe4ab.png">
 
 Def-use sets per statement:
 
 Def-path set:
+- du(1, data) = {[1], [1,3], [1,3,4], [1,3,5,8]}
 - du(1, column) = {[1,3,4], [1,3,5,8]}
-- du(1, data) = {[1], [1, 3], [1,3,4],  [1,3,5,8]]}
 - du(3, total) = {[3,4,6], [3,5,9], [3,5,8,10],  [3,4,6,7,3,5,9], [3,4,7,3,5,9], [3,5,8,10,11,5,9], [3,5,8,11,5,9]}
 - du(3, rowCount) = {[3],[3,5]}
-- du(3, r) = {[3],[3,4], [3,4,7]}
+- du(3, r) = {[3], [3,4,6,7], [3,4,7]}
 - du(4, n) = {[4], [4,6]}
-- du(5, r2) = {[5], [5,8], [5,8,11]}
+- du(5, r2) = {[5], [5,8,10,11], [5,8,11]}
 - du(8, n) = {[8], [8,10]}
 
 Def-pair set:
-- du(1, 4, column) = {[1,3,4]}
-- du(1, 8, column) = {[1,3,5,8]}
 - du(1, 3, data) = {[1, 3]}
 - du(1, 4, data) = {[1, 3, 4]}
 - du(1, 8, data) = {[1, 3, 5, 8]}
+- du(1, 4, column) = {[1, 2, 4]}
+- du(1, 8, column) = {[1, 3, 5, 8]}
 - du(3, 6, total) = {[3,4,6]}
-- du(3, 9, total) = {[3,5,9]}
+- du(3, 9, total) = {[3,5,9], [3,4,6,7,3,5,9], [3,4,7,3,5,9], [3,5,8,10,11,5,9], [3,5,8,11,5,9]}
 - du(3, 10, total) = {[3,5,8,10]}
 - du(3, 5, rowCount) = {[3,5]}
-- du(3, 4, r) = {[3,4]}
-- du(3, 7, r) = {[3,4,7]}
+- du(3, 7, r) = {[3,4,7], [3,4,6,7]}
 - du(4, 6, n) = {[4,6]}
+- du(5, 11, r2) = {[5, 8,10,11], [5,8,11] }
 - du(8, 10, n) = {[8,10]}
-- du(5, 8, r2) = {[5, 8]}
-- du(5, 11, r2) = {[5, 8,11]}
-
 
 ![](media/datautilstable.png)
 
