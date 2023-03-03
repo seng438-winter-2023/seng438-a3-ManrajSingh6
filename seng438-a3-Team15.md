@@ -144,7 +144,9 @@ Screenshots:
 
 # 6 Pros and Cons of coverage tools used and Metrics you report
 
-Text…
+EclEmma helped provide important coverage metrics such as Statement, Line and Method coverage. One positive aspect of this tool is the usability and how it is easy to view the coverage metrics for each test case after running it. It also shows in depth for each method in the class being tested the coverage values as well, and how they have been improved after writing tests that target them. Another benefit of this tool is the coverage highlighting, and how it highlights in red the lines and methods that have been missed, in yellow the branches that have been missed and in green the lines/methods that have 100% coverage.
+
+One con of the coverage tool is that it takes some trial and error to identify the coverage metrics and what they mean, along with how to access the differnt metrics. Another con of this tool is how mock objects do not impact the value of coverage metrics. To fix this issue, we had to use actual dependent objects, which may introduce inefficiencis in some cases.
 
 # 7 A comparison on the advantages and disadvantages of requirements-based test generation and coverage-based test generation.
 
@@ -152,12 +154,12 @@ Text…
 
 # 8 A discussion on how the team work/effort was divided and managed
 
-Text…
+Initially all group members worked together to determine the intial coverage metrics and understand the aspects that needed to be improved. We all talked about how we could write new test cases that improved the statement, branch and method coverage. After this discussion, we split into two groups (Manraj-Sajan) and (Noor-Ahmad) to indivdually write test cases for the DataUtilities and Range classes. This was done in a pair-programming style so that one member could write code and the other could advise of decisions made. The groups then came together and discussed about the results.
 
 # 9 Any difficulties encountered, challenges overcome, and lessons learned from performing the lab
 
-Text…
+It was difficult initially to determine how to use EclEmma and what the different parameters meant. This was overcome quickly after group discussion. It was also difficult to understand why mocking was preventing EclEmma from registering the tests, however after changing them to actual objects this issue was fixed.
 
 # 10 Comments/feedback on the lab itself
 
-Text…
+The lab was useful to see the difference between requirements-based testing and coverage-based, and how each one tests for different things in different ways. The instructions for the lab were clear and concise, however many group members ran into issues while setting up the project in Eclipse. We learned how to develop more through unit tests.
