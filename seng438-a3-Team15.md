@@ -116,7 +116,9 @@ This test improved coverage because the original mock objects were not targeting
 
 We tested the shift method by creating an example range, shifting it by one, and then verifying that the value returned from getLowerBound() is the same as a value that we hard coded. The shift method did not have any branches, so it was not difficult to increase the coverage of the range class by testing the shift method.
 
-**5) **
+**5) public static Range combine(Range range1, Range range2) **
+
+We tested the combine method by combining two ranges and verifying that the upper and lower bounds of the new range are accurate. We did this by hard coding the expected values and using assertEquals() to ensure they were the same value. We increased the coverage by combining two ranges with numerical values, one range with numerical values and a null range, and then combining two null ranges. This allowed us to increase our branch coverage. 
 
 # 5 A detailed report of the coverage achieved of each class and method (a screen shot from the code cover results in green and red color would suffice)
 
