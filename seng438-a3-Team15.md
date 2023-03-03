@@ -120,6 +120,11 @@ Range.java class:
 - Method:
 
 Screenshots:
+![](media/rangeMethod.png)
+
+![](media/rangeLine.png)
+
+![](media/rangeBranch.png)
 
 DataUtilities.java:
 - Statement/Line: 87.5%
