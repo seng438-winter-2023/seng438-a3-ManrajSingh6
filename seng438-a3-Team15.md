@@ -112,7 +112,11 @@ These functions changed the coverage values because we removed the mock objects,
 This test improved coverage because the original mock objects were not targeting the test properly. By removing the mock objects and replacing them with actual dependent objects, the coverage increased. We also provided null values for the key-value pairs, and that allowed us to trigger some branch statements that greatly improved branch coverage as they were not being targeted intitially. 
 
 **Noor and Ahmad**
+**4) public static Range shift(Range base, double delta)**
 
+We tested the shift method by creating an example range, shifting it by one, and then verifying that the value returned from getLowerBound() is the same as a value that we hard coded. The shift method did not have any branches, so it was not difficult to increase the coverage of the range class by testing the shift method.
+
+**5) **
 
 # 5 A detailed report of the coverage achieved of each class and method (a screen shot from the code cover results in green and red color would suffice)
 
