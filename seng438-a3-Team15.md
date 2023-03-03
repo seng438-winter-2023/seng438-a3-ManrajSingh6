@@ -126,9 +126,9 @@ We tested the combine method by combining two ranges and verifying that the uppe
 **Final Coverages:**
 
 Range.java class:
-- Statement/Line:
-- Branch:
-- Method:
+- Statement/Line: 92.4%
+- Branch: 91.5%
+- Method: 100%
 
 Screenshots:
 
