@@ -81,9 +81,9 @@ Def-pair set:
 - du(5, 11, r2) = {[5, 8,10,11], [5,8,11] }
 - du(8, 10, n) = {[8,10]}
 
-![](media/datautilstable.png)
+<img width="604" alt="Caluculations - one" src="https://user-images.githubusercontent.com/97706855/222842732-eea83bd2-b4c8-4b3d-9d0e-f730ae7e5ff9.png">
 
-Calculate DU-Pair Coverage: CU = 11, PU = 14
+Calculate DU-Pair Coverage: CU = 13, PU = 18
 
 # 3 A detailed description of the testing strategy for the new unit test
 
