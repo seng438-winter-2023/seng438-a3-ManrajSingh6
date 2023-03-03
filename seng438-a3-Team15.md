@@ -54,6 +54,9 @@ Data Flow Graph:
 
 ![](media/datautilcoldiagram.png)
 
+<img width="691" alt="CalculateColumnTotal" src="https://user-images.githubusercontent.com/97706855/222828967-27b22177-24d7-4324-a6fe-dfe207493144.png">
+
+
 Def-use sets per statement:
 
 Def-path set:
