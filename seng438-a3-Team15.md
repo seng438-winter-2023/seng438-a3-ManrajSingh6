@@ -124,6 +124,7 @@ Range.java class:
 - Method:
 
 Screenshots:
+
 ![](media/rangeMethod.png)
 
 ![](media/rangeLine.png)
@@ -136,6 +137,7 @@ DataUtilities.java:
 - Method: 90%
 
 Screenshots:
+
 ![](media/duMethod.png)
 
 ![](media/duLine.png)
