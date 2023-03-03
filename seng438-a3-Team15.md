@@ -84,9 +84,9 @@ Def-pair set:
 - du(5, 11, r2) = {[5, 8,11]}
 
 
-![](media/ColTotalTables.png)
+![](media/datautilstable.png)
 
-Calculate DU-Pair Coverage: CU = 7, PU = 14
+Calculate DU-Pair Coverage: CU = 11, PU = 14
 
 # 3 A detailed description of the testing strategy for the new unit test
 
