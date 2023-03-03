@@ -81,11 +81,27 @@ Calculate DU-Pair Coverage: CU = 7, PU = 14
 
 # 3 A detailed description of the testing strategy for the new unit test
 
-Text…
+For the new unit tests, we aim to initially identify the initial statement, branch and condition coverages. After identifying these values, we will write basic test cases for methods that our old code did not test. After we develop these basic tests, we will see the increase in values for the coverages, and add/modify the tests accordingly to improve the values. Furthermore, viewing the initial coverages as a group will allow us to identify where our previous test cases missed statements, and how we could develop further tests to trigger different conditional statements. After this group discussion, we split the two classes amongst two smaller groups (Manraj-Sajan and Noor-Ahmad). Each subgroup took a deeper look at the coverage values provided by EclEmma and split up missed methods to write tests for. After each member was done adding tests, we combined them to see the overall coverage.
+
+Our initial statement, branch and method coverage values (from Assignment 2) were as follows:
+
+Range.combine() method:
+- Statement coverage: 11.5%
+- Branch coverage: 6.2%
+- Condition coverage: 20.0%
+
+DataUtilities.calculateColumnTotal() method:
+- Statement coverage: 35.3%
+- Branch coverage: 34.1%
+- Condition coverage: 43.5%
 
 # 4 A high level description of five selected test cases you have designed using coverage information, and how they have increased code coverage
 
-Text…
+Manraj and Sajan:
+
+**1) public void testEqual4**
+  
+
 
 # 5 A detailed report of the coverage achieved of each class and method (a screen shot from the code cover results in green and red color would suffice)
 
