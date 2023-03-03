@@ -107,7 +107,8 @@ These functions changed the coverage values because we removed the mock objects,
 
 **3) public void getCumulativePercentageTest2()**
 This test improved coverage because the original mock objects were not targeting the test properly. By removing the mock objects and replacing them with actual dependent objects, the coverage increased. We also provided null values for the key-value pairs, and that allowed us to trigger some branch statements that greatly improved branch coverage as they were not being targeted intitially. 
-  
+
+**Noor and Ahmad**
 **NOOR AND AHMAD ADD YOUR 3 METHODS HERE**
 
 # 5 A detailed report of the coverage achieved of each class and method (a screen shot from the code cover results in green and red color would suffice)
