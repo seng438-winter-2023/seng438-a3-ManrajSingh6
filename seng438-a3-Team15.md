@@ -97,15 +97,40 @@ DataUtilities.calculateColumnTotal() method:
 
 # 4 A high level description of five selected test cases you have designed using coverage information, and how they have increased code coverage
 
-Manraj and Sajan:
+**Manraj and Sajan:**
 
-**1) public void testEqual4**
+**1) public void testEqual4()**
+By adding this test case, we aimed to improve the line/statement coverage because this method was not being tested in the intial code from Assignment 2. After conducting this test with valid values, we improved line and method coverage but did not improve branch coverage because the if-statements were not being ran. To improve branch coverage, we modified the values of parameters passed to the equals() method (in class DataUtilities), to provide for null values, and when array sizes and array values were differnt. 
+
+**2) public void test1ColumnTotal()**
+These functions changed the coverage values because we removed the mock objects, and replaced them with actual dependent objects. This allowed us to improve the line coverage because EclEmma was not registering the proper coverage values due to the mock objects. After we designed the new test code for test1ColumnTotal(), we developed further test cases by modifying the input values to ensure that all branches were targeted and all lines in the method were targeted.
+
+**3) public void getCumulativePercentageTest2()**
+This test improved coverage because the original mock objects were not targeting the test properly. By removing the mock objects and replacing them with actual dependent objects, the coverage increased. We also provided null values for the key-value pairs, and that allowed us to trigger some branch statements that greatly improved branch coverage as they were not being targeted intitially. 
   
-
+**NOOR AND AHMAD ADD YOUR 3 METHODS HERE**
 
 # 5 A detailed report of the coverage achieved of each class and method (a screen shot from the code cover results in green and red color would suffice)
 
-Text…
+**Final Coverages:**
+Range.java class:
+- Statement/Line:
+- Branch:
+- Method:
+
+Screenshots:
+
+DataUtilities.java:
+- Statement/Line: 87.5%
+- Branch: 82.8%
+- Method: 90%
+
+Screenshots:
+![](media/duMethod.png)
+
+![](media/duLine.png)
+
+![](media/duBranch.png)
 
 # 6 Pros and Cons of coverage tools used and Metrics you report
 
