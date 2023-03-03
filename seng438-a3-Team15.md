@@ -111,12 +111,13 @@ These functions changed the coverage values because we removed the mock objects,
 
 This test improved coverage because the original mock objects were not targeting the test properly. By removing the mock objects and replacing them with actual dependent objects, the coverage increased. We also provided null values for the key-value pairs, and that allowed us to trigger some branch statements that greatly improved branch coverage as they were not being targeted intitially. 
 
-**Noor and Ahmad**
+**Noor and Ahmad:**
+
 **4) public static Range shift(Range base, double delta)**
 
 We tested the shift method by creating an example range, shifting it by one, and then verifying that the value returned from getLowerBound() is the same as a value that we hard coded. The shift method did not have any branches, so it was not difficult to increase the coverage of the range class by testing the shift method.
 
-**5) public static Range combine(Range range1, Range range2) **
+**5) public static Range combine(Range range1, Range range2)**
 
 We tested the combine method by combining two ranges and verifying that the upper and lower bounds of the new range are accurate. We did this by hard coding the expected values and using assertEquals() to ensure they were the same value. We increased the coverage by combining two ranges with numerical values, one range with numerical values and a null range, and then combining two null ranges. This allowed us to increase our branch coverage. 
 
@@ -158,7 +159,9 @@ One con of the coverage tool is that it takes some trial and error to identify t
 
 # 7 A comparison on the advantages and disadvantages of requirements-based test generation and coverage-based test generation.
 
-Text…
+So far in the course, we have learned black-box testing which is similar to requirements-based testing. This allows us to understand the user functional requirements, and develop tests accordingly. Without having the code, we can test core functionality of the program and develop test cases that may violate such functionality. This is an advantage as it allows test designers to focus strictly on functionality and not developing test cases based on code. A disadvantage of this method is that test designers may not develop through test suites as they cannot view coverage metrics.
+
+Coverage-based testing is useful for developing more thorough test cases and test designers can see the code for methods, and identify points where they may fail when provided with different sets of values. It also allows test designers to develop a broader test suite, that tests all lines of a method, including the different paths that data may traverse. This allows us to analyze the data flow in depth, along with how changing variable values may affect operations at a later stage in the data flow. The disadvantage of whitebox testing is that developers may spend a longer time writing tests that may not throughly test the functionality of the system as a whole. In coverage-based testing, specific units are targeted for testing, and the entire system as a whole is not tested in depth. 
 
 # 8 A discussion on how the team work/effort was divided and managed
 
